@@ -1,0 +1,2 @@
+wwwroot\StyleSheet.css
+D:\Github Repos\DotNET(Deep-Dive)\AspNetCore Mastery\09. View Components\01. Creating View Components\ViewComponentsExample\wwwroot\StyleSheet.css

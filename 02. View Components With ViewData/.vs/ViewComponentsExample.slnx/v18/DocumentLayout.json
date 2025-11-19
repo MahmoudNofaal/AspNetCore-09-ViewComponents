@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\shared\\components\\grid\\sample.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\shared\\components\\grid\\sample.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\viewcomponents\\gridviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\viewcomponents\\gridviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|d:\\github repos\\dotnet(deep-dive)\\aspnetcore mastery\\09. view components\\02. view components with viewdata\\viewcomponentsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B158CFD-DF98-90A6-DB1D-B0E3CB02577F}|ViewComponentsExample\\ViewComponentsExample.csproj|solutionrelative:viewcomponentsexample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Models\\Person.cs",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Models\\Person.cs",
+              "RelativeToolTip": "ViewComponentsExample\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:34:02.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:30:19.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:29:38.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:28:52.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sample.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Shared\\Components\\Grid\\Sample.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\Shared\\Components\\Grid\\Sample.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Shared\\Components\\Grid\\Sample.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\Shared\\Components\\Grid\\Sample.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:28:10.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GridViewComponent.cs",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\ViewComponents\\GridViewComponent.cs",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\ViewComponents\\GridViewComponent.cs",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\ViewComponents\\GridViewComponent.cs",
+              "RelativeToolTip": "ViewComponentsExample\\ViewComponents\\GridViewComponent.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:26:20.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:24:57.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ViewComponentsExample\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T22:24:47.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ViewComponentsExample\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:24:30.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Program.cs",
+              "RelativeDocumentMoniker": "ViewComponentsExample\\Program.cs",
+              "ToolTip": "D:\\Github Repos\\DotNET(Deep-Dive)\\AspNetCore Mastery\\09. View Components\\02. View Components With ViewData\\ViewComponentsExample\\Program.cs",
+              "RelativeToolTip": "ViewComponentsExample\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:22:33.73Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
