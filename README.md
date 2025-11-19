@@ -21,26 +21,6 @@
 
 ### Purpose & Benefits
 
-```mermaid
-mindmap
-  root((View Components))
-    Encapsulation
-      Complex UI logic
-      Self-contained units
-      Clear boundaries
-    Reusability
-      Multiple views
-      Different contexts
-      DRY principle
-    Testability
-      Unit testable
-      Isolated logic
-      Mock dependencies
-    Flexibility
-      Dependency injection
-      Async support
-      Parameter passing
-```
 
 | Benefit | Description | Impact |
 |---------|-------------|--------|
@@ -52,26 +32,7 @@ mindmap
 
 ### When to Use View Components
 
-```mermaid
-graph TD
-    A[Need UI Component?] --> B{Complexity Level}
-    B -->|Simple & Static| C[Use Partial View]
-    B -->|Moderate & Dynamic| D{Needs Data Access?}
-    B -->|Complex Logic| E[Use View Component]
-    
-    D -->|No| C
-    D -->|Yes| E
-    
-    E --> F[Examples:]
-    F --> F1[Shopping Cart]
-    F --> F2[Login Panel]
-    F --> F3[Dynamic Menu]
-    F --> F4[Weather Widget]
-    F --> F5[Recent Articles]
-    
-    style E fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-```
+
 
 #### Decision Matrix
 
@@ -129,23 +90,6 @@ YourProject/
 
 ASP.NET Core searches for view component views in this order:
 
-```mermaid
-graph TD
-    A[View Component Invoked] --> B[Search Pattern]
-    B --> C["/Views/{Controller}/Components/{ViewComponent}/{ViewName}.cshtml"]
-    C --> D{Found?}
-    D -->|No| E["/Views/Shared/Components/{ViewComponent}/{ViewName}.cshtml"]
-    E --> F{Found?}
-    F -->|No| G["/Pages/Shared/Components/{ViewComponent}/{ViewName}.cshtml"]
-    G --> H{Found?}
-    H -->|No| I[Error: View Not Found]
-    D -->|Yes| J[Render View]
-    F -->|Yes| J
-    H -->|Yes| J
-    
-    style J fill:#4CAF50,color:#fff
-    style I fill:#f44336,color:#fff
-```
 
 ### 4. Invocation Methods
 
@@ -161,23 +105,7 @@ graph TD
 
 ### Basic View Component Architecture
 
-```mermaid
-sequenceDiagram
-    participant V as View
-    participant VC as View Component
-    participant S as Service/Data Layer
-    participant VF as View File
-    
-    V->>VC: @await Component.InvokeAsync()
-    VC->>VC: Validate parameters
-    VC->>S: Request data
-    S-->>VC: Return data
-    VC->>VC: Process/transform data
-    VC->>VF: Pass model
-    VF-->>VC: Render HTML
-    VC-->>V: Return IViewComponentResult
-    V->>V: Insert rendered HTML
-```
+
 
 ### Step 1: Create the View Component Class
 
@@ -318,27 +246,7 @@ public class GridViewComponent : ViewComponent
 
 ### Why Strongly Typed?
 
-```mermaid
-graph LR
-    A[Strongly Typed View Components] --> B[Type Safety]
-    A --> C[IntelliSense]
-    A --> D[Refactoring]
-    A --> E[Maintainability]
-    
-    B --> B1[Compile-time checking]
-    B --> B2[Prevent runtime errors]
-    
-    C --> C1[Auto-completion]
-    C --> C2[Property suggestions]
-    
-    D --> D1[Automatic updates]
-    D --> D2[Find all references]
-    
-    E --> E1[Self-documenting]
-    E --> E2[Clear contracts]
-    
-    style A fill:#4CAF50,color:#fff
-```
+
 
 ### Benefits Comparison
 
@@ -461,18 +369,7 @@ Parameters make view components **flexible**, **reusable**, and **dynamic**—al
 
 ### Parameter Flow Diagram
 
-```mermaid
-graph LR
-    A[Main View] --> B[Create Model/Data]
-    B --> C[Invoke View Component]
-    C --> D[Pass Parameters]
-    D --> E[View Component Receives]
-    E --> F[Process Parameters]
-    F --> G[Return Customized View]
-    
-    style D fill:#FF9800,color:#fff
-    style E fill:#4CAF50,color:#fff
-```
+
 
 ### Implementation Examples
 
@@ -647,51 +544,11 @@ public class WidgetViewComponent : ViewComponent
 
 ### Architecture Flow
 
-```mermaid
-sequenceDiagram
-    participant Browser
-    participant Controller
-    participant ViewComponent
-    participant Service
-    participant View
-    
-    Browser->>Controller: AJAX Request
-    Controller->>Service: Fetch Data
-    Service-->>Controller: Return Data
-    Controller->>ViewComponent: Create ViewComponentResult
-    ViewComponent->>ViewComponent: Execute InvokeAsync
-    ViewComponent->>Service: Additional Data (if needed)
-    Service-->>ViewComponent: Return Data
-    ViewComponent->>View: Render with Model
-    View-->>ViewComponent: HTML Fragment
-    ViewComponent-->>Controller: IViewComponentResult
-    Controller-->>Browser: HTML Response
-    Browser->>Browser: Update DOM
-```
+
 
 ### Use Cases
 
-```mermaid
-mindmap
-  root((ViewComponentResult))
-    Dynamic Loading
-      AJAX content
-      Lazy loading
-      On-demand widgets
-      Modal content
-    Performance
-      Partial updates
-      Reduced payload
-      Cached fragments
-    Architecture
-      API endpoints
-      Hybrid apps
-      Microservices UI
-    User Experience
-      Smooth updates
-      No full refresh
-      Progressive loading
-```
+
 
 ### Implementation Examples
 
@@ -888,20 +745,7 @@ public async Task<IViewComponentResult> InvokeAsync()
 
 ### 3. Error Handling Strategy
 
-```mermaid
-graph TD
-    A[View Component Invoked] --> B{Try Operation}
-    B -->|Success| C[Return View]
-    B -->|Exception| D[Log Error]
-    D --> E{Error Type}
-    E -->|Data Not Found| F[Return Empty State View]
-    E -->|Service Error| G[Return Error Message]
-    E -->|Critical Error| H[Return Fallback Content]
-    
-    style C fill:#4CAF50,color:#fff
-    style F fill:#FF9800,color:#fff
-    style G fill:#f44336,color:#fff
-```
+
 
 ```csharp
 public async Task<IViewComponentResult> InvokeAsync(int userId)
@@ -1023,32 +867,6 @@ YourProject/
 
 ### Detailed Comparison
 
-```mermaid
-graph TD
-    A[Choose Component Type] --> B{Need Data Access?}
-    B -->|No| C{Complex Logic?}
-    B -->|Yes| D[View Component]
-    
-    C -->|No| E[Partial View]
-    C -->|Yes| F{Need DI?}
-    
-    F -->|No| E
-    F -->|Yes| D
-    
-    D --> G[Benefits:]
-    G --> G1[Full DI support]
-    G --> G2[Async operations]
-    G --> G3[Unit testable]
-    G --> G4[Complex logic]
-    
-    E --> H[Benefits:]
-    H --> H1[Simple & fast]
-    H --> H2[Less overhead]
-    H --> H3[Easy to create]
-    
-    style D fill:#4CAF50,color:#fff
-    style E fill:#2196F3,color:#fff
-```
 
 ### Feature Matrix
 
@@ -1158,24 +976,7 @@ public class UserCardViewComponent : ViewComponent
 
 ### Migration Path
 
-```mermaid
-graph LR
-    A[Partial View] --> B{Growing Complexity?}
-    B -->|No| C[Keep as Partial View]
-    B -->|Yes| D{Need Data Access?}
-    D -->|No| C
-    D -->|Yes| E[Convert to View Component]
-    
-    E --> F[Steps:]
-    F --> F1[Create ViewComponent class]
-    F1 --> F2[Move logic to InvokeAsync]
-    F2 --> F3[Add DI if needed]
-    F3 --> F4[Update view path]
-    F4 --> F5[Update invocations]
-    
-    style E fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-```
+
 
 ---
 
@@ -1187,23 +988,7 @@ graph LR
 
 **Answer Structure:**
 
-```mermaid
-mindmap
-  root((Answer))
-    Definition
-      Self-contained UI component
-      Encapsulates logic and rendering
-      Reusable across views
-    Key Differences
-      DI Support
-      Async operations
-      Data access capability
-      Unit testability
-    Use Cases
-      Complex widgets
-      Data-driven components
-      Reusable with logic
-```
+
 
 **Sample Answer:**
 > "A View Component is a self-contained, reusable UI building block in ASP.NET Core MVC that encapsulates rendering logic along with data access. Unlike Partial Views, View Components support full dependency injection, can perform async operations, access services directly, and are easier to unit test. I'd use a View Component when I need to fetch data, perform complex logic, or create testable, reusable widgets like shopping carts or dynamic navigation menus."
@@ -1214,28 +999,6 @@ mindmap
 
 **Lifecycle Diagram:**
 
-```mermaid
-sequenceDiagram
-    autonumber
-    participant View
-    participant Runtime
-    participant VC as View Component
-    participant DI as DI Container
-    participant Service
-    participant VF as View File
-    
-    View->>Runtime: @await Component.InvokeAsync()
-    Runtime->>DI: Resolve dependencies
-    DI->>VC: Create instance with dependencies
-    VC->>VC: Validate parameters
-    VC->>Service: Request data (async)
-    Service-->>VC: Return data
-    VC->>VC: Process/transform data
-    VC->>Runtime: Return IViewComponentResult
-    Runtime->>VF: Locate view file
-    VF->>Runtime: Render with model
-    Runtime-->>View: Insert HTML
-```
 
 **Key Lifecycle Points:**
 
@@ -1255,26 +1018,7 @@ sequenceDiagram
 
 **Answer with Examples:**
 
-```mermaid
-graph TD
-    A[Data Passing Methods] --> B[Via Parameters]
-    A --> C[Via Services]
-    A --> D[Via ViewData]
-    
-    B --> B1[✅ Recommended]
-    B --> B2[Type-safe]
-    B --> B3[Clear contract]
-    
-    C --> C1[✅ Good for shared data]
-    C --> C2[Uses DI]
-    
-    D --> D1[❌ Avoid]
-    D --> D2[Not type-safe]
-    
-    style B fill:#4CAF50,color:#fff
-    style C fill:#2196F3,color:#fff
-    style D fill:#f44336,color:#fff
-```
+
 
 **Method 1: Parameters (Recommended)**
 ```csharp
@@ -1312,26 +1056,7 @@ public class CurrentUserViewComponent : ViewComponent
 
 **Decision Tree:**
 
-```mermaid
-graph TD
-    A[Need to Return HTML from Controller?] --> B{Full Page or Fragment?}
-    B -->|Full Page| C[Use ViewResult]
-    B -->|Fragment| D{Complex Logic?}
-    
-    D -->|Yes| E[Use ViewComponentResult]
-    D -->|No| F{Simple Fragment?}
-    
-    F -->|Yes| G[Use PartialViewResult]
-    F -->|No| E
-    
-    E --> H[Perfect for:]
-    H --> H1[AJAX requests]
-    H --> H2[Modal content]
-    H --> H3[Dynamic widgets]
-    H --> H4[Lazy loading]
-    
-    style E fill:#4CAF50,color:#fff
-```
+
 
 **Use Cases Table:**
 
@@ -1411,17 +1136,7 @@ public class ProductListViewComponentTests
 
 **DI Flow:**
 
-```mermaid
-graph LR
-    A[Startup ConfigureServices] --> B[Register Services]
-    B --> C[DI Container]
-    C --> D[View Component Constructor]
-    D --> E[Inject Dependencies]
-    E --> F[Use in InvokeAsync]
-    
-    style C fill:#FF9800,color:#fff
-    style E fill:#4CAF50,color:#fff
-```
+
 
 **Implementation Example:**
 
@@ -1604,26 +1319,7 @@ public class RecentActivityViewComponent : ViewComponent
 
 **How ASP.NET Core finds View Components:**
 
-```mermaid
-graph TD
-    A[Component.InvokeAsync Called] --> B[Name Resolution]
-    B --> C{Name Format}
-    C -->|"Grid"| D[Look for GridViewComponent]
-    C -->|"ProductList"| E[Look for ProductListViewComponent]
-    C -->|Custom| F[Look for exact match]
-    
-    D --> G[Search Assemblies]
-    E --> G
-    F --> G
-    
-    G --> H[Check registered namespaces]
-    H --> I{Found?}
-    I -->|Yes| J[Create instance via DI]
-    I -->|No| K[Throw exception]
-    
-    style J fill:#4CAF50,color:#fff
-    style K fill:#f44336,color:#fff
-```
+
 
 #### 2. Output Caching
 
@@ -1752,33 +1448,7 @@ public async Task<IViewComponentResult> InvokeAsync(
 
 ### Key Takeaways
 
-```mermaid
-mindmap
-  root((View Components))
-    When to Use
-      Complex UI logic
-      Data access needed
-      Dependency injection
-      Async operations
-      Unit testing required
-    Key Features
-      Constructor DI
-      InvokeAsync method
-      Strongly typed models
-      Parameter support
-      Multiple views
-    Best Practices
-      Use async/await
-      Inject services
-      Cache when possible
-      Handle errors gracefully
-      Keep logic focused
-    Avoid
-      Overuse for simple cases
-      Direct DB access
-      Complex business logic
-      Tight coupling
-```
+
 
 ### Interview Success Checklist
 
